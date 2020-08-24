@@ -7,6 +7,7 @@
 - Control the duration of cargo and supply drop flight times
 - Control the duration of the drop time
 - Spawn supply drops directly on canister
+- Remove signal smoke once dropped 
 
 ## Install/Requirements
 - rust/oxide server
