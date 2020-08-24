@@ -7,3 +7,9 @@
 - Control the duration of cargo and supply drop flight times
 - Control the duration of the drop time
 - Spawn supply drops directly on canister
+
+## Install/Requirements (important!!!)
+- rust/oxide server
+- generate your `DecayDrops.json` config **FIRST** and move it to the `oxide/config/` directory in oxide
+- move `DecayDrops.cs` into `oxide/plugins/` directory
+- reload plugin
