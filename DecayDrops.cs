@@ -50,7 +50,7 @@ namespace Oxide.Plugins
                 if (signals.Count == 0) return;
                 var signal = signals.Dequeue();
                 var sp = signal.transform.position;
-                drop.transform.position = new UnityEngine.Vector3(sp.x, sp.y + 0.015f, sp.z);
+                drop.transform.position = new UnityEngine.Vector3(sp.x, sp.y + 10f, sp.z);
                 signal.Kill();
             }
         }
