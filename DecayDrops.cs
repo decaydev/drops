@@ -48,6 +48,7 @@ namespace Oxide.Plugins
                 drop.RemoveParachute();
                 drop.MakeLootable();
                 var signal = signals.Dequeue();
+                if (signal == null) return;
                 var sp = signal.transform.position;
                 drop.transform.position = new UnityEngine.Vector3(sp.x, sp.y + 0.015f, sp.z);
                 signal.Kill();
