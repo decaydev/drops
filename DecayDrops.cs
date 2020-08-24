@@ -77,9 +77,9 @@ namespace Oxide.Plugins
 
         private class ConfigData
         {
-            [JsonProperty(PropertyName = "flight-duration")]
+            [JsonProperty(PropertyName = "flight_duration")]
             public float flightDuration { get; set; }
-            [JsonProperty(PropertyName = "drop-duration")]
+            [JsonProperty(PropertyName = "drop_duration")]
             public float dropDuration { get; set; }
         }
     }
