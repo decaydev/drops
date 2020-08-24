@@ -15,7 +15,7 @@
 - reload plugin
 
 ### DecayDrops JSON Schema
-```
+```json
 {
   "drops": {
     "flight_duration": 10,
