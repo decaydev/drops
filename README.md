@@ -13,3 +13,13 @@
 - generate your `DecayDrops.json` config **FIRST** and move it to the `oxide/config/` directory in oxide
 - move `DecayDrops.cs` into `oxide/plugins/` directory
 - reload plugin
+
+### DecayDrops JSON Schema
+```
+{
+  "drops": {
+    "flight_duration": 10,
+    "drop_duration": 10
+  }
+}
+```
