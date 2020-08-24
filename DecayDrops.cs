@@ -47,20 +47,21 @@ namespace Oxide.Plugins
                 var v = drop.GetDropVelocity();
                 drop.RemoveParachute();
                 drop.MakeLootable();
-                Vector3 dropPosition;
+                UnityEngine.Vector3 dropPosition;
                 if (signals.Count == 0)
                 {
-                    dropPosition = drop.dropPosition
+                    dropPosition = drop.GetDropPosition();
                 }
                 else
                 {
                     var signal = signals.Dequeue();
-                    var sp = signal.transform.position;
+                    dropPosition = signal.transform.position;
                     signal.Kill();
                 }
-                drop.transform.position = new UnityEngine.Vector3(sp.x, sp.y + 10f, sp.z);
+                drop.transform.position = new UnityEngine.Vector3(dropPosition.x, dropPosition.y + 10f, dropPosition.z);
             }
         }
+
 
         protected override void LoadConfig()
         {
@@ -83,4 +84,3 @@ namespace Oxide.Plugins
         }
     }
 }
-
