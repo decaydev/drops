@@ -7,7 +7,15 @@
 - Control the duration of cargo and supply drop flight times
 - Control the duration of the drop time
 - Spawn supply drops directly on canister
-- Remove signal smoke once dropped 
+- Remove signal smoke once dropped
+- does not attempt to generate any base config code
+- does do not rely on or use Rust/Facepunch DLL's outside of what `oxide` uses
+```
+  using Newtonsoft.Json;
+  using System;
+  using System.Collections.Generic;
+  using System.Linq;
+```
 
 ## Install/Requirements
 - rust/oxide server
