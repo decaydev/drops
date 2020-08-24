@@ -55,7 +55,6 @@ namespace Oxide.Plugins
             }
         }
 
-
         protected override void LoadConfig()
         {
             base.LoadConfig();
