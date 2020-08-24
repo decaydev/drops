@@ -26,9 +26,7 @@
 ### DecayDrops JSON Schema
 ```json
 {
-  "drops": {
-    "flight_duration": 10,
-    "drop_duration": 10
-  }
+  "flight_duration": 10,
+  "drop_duration": 10
 }
 ```
