@@ -2,6 +2,8 @@
 
 # DecayDrops
 
+Simple and efficient drop manager. Control flight times, drop times, and spawn drops on canisters. Designed to keep your server from lagging, 86 lines of code.
+
 ## Plugin Attributes
 
 - Control the duration of cargo and supply drop flight times
